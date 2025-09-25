@@ -12,13 +12,13 @@ public class BasicCalculator {
         System.out.print("Enter the second number: ");
         double secondNumber = myScanner.nextDouble();
 
-        System.out.println("Possible calculations: ");
+        System.out.println("\nPossible calculations: ");
         System.out.println("(A)dd");
         System.out.println("(S)ubtract");
         System.out.println("(M)ultiply");
         System.out.println("(D)ivide");
 
-        System.out.println("Please select an option (lets try M): ");
+        System.out.print("\nPlease select an option (lets try M): ");
         String operation = myScanner.next();
 
         double result = firstNumber * secondNumber;
